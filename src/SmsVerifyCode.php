@@ -174,7 +174,7 @@ class SmsVerifyCode
             $this->error = '验证码不正确';
             return false;
         } else {
-            $this->error = '验证码无效在或已过期';
+            $this->error = '验证码无效或已过期';
             return false;
         }
     }
